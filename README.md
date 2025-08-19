@@ -26,3 +26,14 @@ El objetivo es poner en práctica conceptos de _HTML5_, _CSS3_ y _metodología B
 **CSS3** → Estilos, responsive design y layout.
 **BEM** → Organización clara de clases CSS.
 **Fuente Inter** → Tipografía desde [rsms.me/inter](https://rsms.me/inter/).
+
+## 📸 Vista previa
+
+url [https://krito1509.github.io/web_project_homeland/] (./images/imagen_lead.png)
+
+Clona este repositorio:
+
+```bash
+git clone git@github.com:Krito1509/web_project_homeland.git
+
+```

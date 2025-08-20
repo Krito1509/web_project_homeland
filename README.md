@@ -27,13 +27,6 @@ El objetivo es poner en práctica conceptos de _HTML5_, _CSS3_ y _metodología B
 **BEM** → Organización clara de clases CSS.
 **Fuente Inter** → Tipografía desde [rsms.me/inter](https://rsms.me/inter/).
 
-## 📸 Vista previa
+## 📸 Visita project_Homeland:
 
-url [https://krito1509.github.io/web_project_homeland/] (./images/imagen_lead.png)
-
-Clona este repositorio:
-
-```bash
-git clone git@github.com:Krito1509/web_project_homeland.git
-
-```
+(https://krito1509.github.io/web_project_homeland/)

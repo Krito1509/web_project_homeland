@@ -1,0 +1,24 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px 400px;
+  grid-template-rows: auto 460 auto;
+  grid-template-areas: ;
+}
+.place__title {
+  grid-area: title;
+}
+.place__website {
+  grid-area: website;
+}
+.place__image {
+  grid-area: image;
+}
+.place__paragraphs {
+  grid-area: paragraphs;
+}
+.place_paragraph {
+  grid-area: paragraph;
+}
+.place__button {
+  grid-area: button;
+}

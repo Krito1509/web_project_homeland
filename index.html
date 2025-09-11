@@ -62,59 +62,61 @@
           </p>
         </section>
         <section class="photo-grid">
-          <img
-            src="./images/Img 1.png"
-            alt="imagen_1"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 2.png"
-            alt="imagen_2"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 3.png"
-            alt="imagen_3"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 4.png"
-            alt="imagen_4"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 5.png"
-            alt="imagen_5"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 6.png"
-            alt="imagen_6"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 7.png"
-            alt="imagen_7"
-            class="photo-grid__item"
-          />
-          <img
-            src="./images/Img 8.png"
-            alt="imagen_8"
-            class="photo-grid__item"
-          />
+          <div class="photo-grid__image">
+            <img
+              src="./images/Img_1.png"
+              alt="imagen_1"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_2.png"
+              alt="imagen_2"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_3.png"
+              alt="imagen_3"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_4.png"
+              alt="imagen_4"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_5.png"
+              alt="imagen_5"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_6.png"
+              alt="imagen_6"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_7.png"
+              alt="imagen_7"
+              class="photo-grid__item"
+            />
+            <img
+              src="./images/Img_8.png"
+              alt="imagen_8"
+              class="photo-grid__item"
+            />
+          </div>
         </section>
         <section class="places">
           <div class="place__content">
             <div class="place__title">Cricieth, Gales</div>
             <div class="place__website">
-              <div>Artistas</div>
+              <div class="place__website place__website-artist">Artista</div>
               <div>Steffan Warren, editor jefe</div>
               <div>Kseniya Glagoleva, gerente de proyectos</div>
             </div>
 
             <div class="place__image">
               <img
-                src="./images/img 9.png"
+                src="./images/img_9.png"
                 alt="imagen_place"
                 class="place__image9"
               />
@@ -144,13 +146,13 @@
           <div class="place__content">
             <h2 class="place__title">Berea, EE. UU.</h2>
             <div class="place__website">
-              <div>Artista</div>
+              <div class="place__website place__website-artist">Artista</div>
               <div>Travis Turner, autor y editor</div>
             </div>
             <div class="place__image">
               <img
-                src="./images/img 10.png"
-                alt="imagen 10"
+                src="./images/img_10.png"
+                alt="imagen_10"
                 class="place__image10"
               />
             </div>
@@ -179,36 +181,84 @@
           <div class="place__content">
             <div class="place__title">Muramvya, Burundi</div>
             <div class="place__website">
-              <div>Artista</div>
+              <div class="place__website place__website-artist">Artista</div>
               <div>Grevisse Kenguruka, editor técnico</div>
             </div>
             <div class="place__image">
               <img
-                src="./images/img 11.png"
-                alt="imagen 11"
+                src="./images/img_11.png"
+                alt="imagen_11"
                 class="place__image11"
               />
             </div>
             <div class="place__paragraphs">
-              <p class="place_paragraph">
-                Muramvya es una de las 18 provincias de Burundi. Durante la época del reino, Muramvya fue su capital; y en 2017, gracias a su paisaje cultural y natural, se añadió a la Lista provisional de patrimonio mundial de la UNESCO. Se encuentra ubicada en el centro de Burundi, entre las capitales política y económica del país.
+              <p class="place__paragraph">
+                Muramvya es una de las 18 provincias de Burundi. Durante la
+                época del reino, Muramvya fue su capital; y en 2017, gracias a
+                su paisaje cultural y natural, se añadió a la Lista provisional
+                de patrimonio mundial de la UNESCO. Se encuentra ubicada en el
+                centro de Burundi, entre las capitales política y económica del
+                país.
               </p>
               <p class="place__paragraph">
-                Su clima es más bien frío durante la noche, pero durante el día, podrías pensar que estás en el paraíso. A sus 2,665 metros (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los lugares más fríos de la provincia. Pero es justo esa brisa fresca la que da pie a una de las más grandes plantaciones de té y café del país, y que representa la mayoría de las exportaciones de Burundi.
+                Su clima es más bien frío durante la noche, pero durante el día,
+                podrías pensar que estás en el paraíso. A sus 2,665 metros
+                (8,743 ft) sobre el nivel del mar, el Monte Teza es uno de los
+                lugares más fríos de la provincia. Pero es justo esa brisa
+                fresca la que da pie a una de las más grandes plantaciones de té
+                y café del país, y que representa la mayoría de las
+                exportaciones de Burundi.
               </p>
               <p class="place__paragraph">
-                El Parque nacional de Kibira, una de las mayores reservas de vida silvestre para los simios, ocupa parte de cuatro provincias, incluyendo Muramvya. Este parque nacional se encuentra en las cúspides de las hermosas montañas de la Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660 metros. Está lleno de hermosa vegetación, y es una fuente para los diversos ríos y arroyos que proporcionan agua alrededor del país.
+                El Parque nacional de Kibira, una de las mayores reservas de
+                vida silvestre para los simios, ocupa parte de cuatro
+                provincias, incluyendo Muramvya. Este parque nacional se
+                encuentra en las cúspides de las hermosas montañas de la
+                Divisoria Congo-Nilo, cuyas alturas oscilan entre 1,550 y 2,660
+                metros. Está lleno de hermosa vegetación, y es una fuente para
+                los diversos ríos y arroyos que proporcionan agua alrededor del
+                país.
               </p>
             </div>
-             <div class="place__button">Compra esta obra como NFT</div>
+            <div class="place__button">Compra esta obra como NFT</div>
+          </div>
+          <div class="place__content">
+            <div class="place__title">Bogotá D. C</div>
+            <div class="place__website">
+              <div class="place__website place__website-artist">Artista</div>
+              <div>Carolina González, Desarrollador Web</div>
             </div>
-          
+            <div class="place__image">
+              <img
+                src="./images/img_12.jpeg"
+                alt="imagen_12"
+                class="place__image12"
+              />
+            </div>
+            <div class="place__paragraphs">
+              <p class="place__paragraph">
+                Bogotá, es una metrópolis con más de 7 millones de habitantes.La
+                ciudad está ubicada en una gran sabana, en el centro del país, a
+                2.600 metros de altura. El área total del distrito capital
+                asciende a 1.776 km2 de los cuales 478 km2 corresponden a la
+                zona urbana (27%)
+              </p>
+              <p class="place__paragraph">
+                Bogotá es verde gracias a sus parques y a los cerros orientales
+                que dominan los santuarios de Monserrate y Guadalupe. Pocas
+                urbes tienen un paisaje como el que los bogotanos disfrutan a
+                diario, cuando su mirada se pierde en esa especie de mar verde
+                que forma la Cordillera de los Andes, en las montañas que se
+                elevan sobre el oriente.
+              </p>
+            </div>
+            <div class="place__button">Compra esta obra como NFT</div>
+          </div>
         </section>
       </main>
       <footer class="footer">
         <p class="footer__copyright">&copy; 2025. Carolina González</p>
       </footer>
-      </div>
     </div>
   </body>
 </html>

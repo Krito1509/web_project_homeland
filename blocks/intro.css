@@ -40,7 +40,7 @@
   line-height: 1.63;
   margin: 0;
 }
-@media screen and (max-width: 1024px) and (min-width: 544px) {
+@media screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
 
@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 320px) {
   .intro__title {
     max-width: 288px;
     margin: 0;

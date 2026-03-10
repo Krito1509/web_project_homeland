@@ -1,4 +1,4 @@
-.places {
+.place {
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places {
+  .place {
     max-width: 720px;
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places {
+  .place {
     max-width: 320px;
     display: flex;
     flex-direction: column;

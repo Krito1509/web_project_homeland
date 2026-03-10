@@ -1,4 +1,4 @@
-.photo-grid {
+.photo-grid__image {
   max-width: 1184px;
 }
 
@@ -7,7 +7,7 @@
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, 213px);
   gap: 16px;
-  margin: 26px auto 92px;
+  margin: 43px auto 53px;
 }
 
 .photo-grid__item {
